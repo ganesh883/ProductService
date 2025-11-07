@@ -1,14 +1,16 @@
-package org.example.productservice.models;
+package org.example.productservice.dtos;
+
 
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class Product extends BaseModel{
+public class FakeStoreProductDto {
+    private Long id;
     private String title;
     private Double price;
-    private Category category;
+    private String Category;
     private String description;
     private String image;
 }
