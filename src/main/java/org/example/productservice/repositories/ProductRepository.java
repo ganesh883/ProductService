@@ -28,7 +28,7 @@ public interface ProductRepository extends JpaRepository<Product, Long> {
     Product save(Product product);
 
     @Query("select p.title as title, p.price as price from products p")
-    List<ProductWithTitleAndPrice> getTitleAndPriceById();
+//    List<ProductWithTitleAndPrice> getTitleAndPriceById();
 
     List<Product> findAllByTitle(String title, Pageable pageable);
 }
