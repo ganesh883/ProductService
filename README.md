@@ -15,8 +15,7 @@
 
 ## 🛠️ Tech Stack
 - 💻 **Language:** Java  
-- ⚙️ **Framework:** Spring Boot  
-- 🗄️ **Database:** *(e.g., MySQL/PostgreSQL/MongoDB)*  
+- ⚙️ **Framework:** Spring Boot    
 - 📦 **Build Tool:** Maven  
 
 ---
